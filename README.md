@@ -1,4 +1,4 @@
-# Program Two
+# Program Two (Project for CMPSC 130A Data Structures & Algorithms I)
 
 _Due June 5 at 11:59 PM_
 
