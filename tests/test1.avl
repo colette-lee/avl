@@ -1,0 +1,15 @@
+#insert 1 -10 20 -5 10 40 2 30 50
+insert 3 94 7 18 38 3 682 47 37 69 23
+#insert 10 5 20 2 7 15 40 30 50 3 6 2 6
+
+lookup 3 18 36 100
+
+print left-left
+
+print right-right
+
+print left-right
+
+print right-left
+
+print tree

@@ -1,0 +1,73 @@
+Added 19 of 20 nodes.
+Visited 59 (2.95) nodes and performed 6 (0.3) rotations.
+
+Node -5 flag1: r flag2: 0
+Node 2 flag1: 0 flag2: 0
+Node 7 flag1: r flag2: l
+Node 18 flag1: r flag2: r
+Node 23 flag1: l flag2: 0
+Node 38 flag1: 0 flag2: 0
+Node 47 flag1: l flag2: l
+Node 69 flag1: l flag2: r
+Node 682 flag1: 0 flag2: 0
+The following inserts would cause a left-left rotation:
+21 to 22, 41 to 46
+
+Node -5 flag1: r flag2: 0
+Node 2 flag1: 0 flag2: 0
+Node 7 flag1: r flag2: l
+Node 18 flag1: r flag2: r
+Node 23 flag1: l flag2: 0
+Node 38 flag1: 0 flag2: 0
+Node 47 flag1: l flag2: l
+Node 69 flag1: l flag2: r
+Node 682 flag1: 0 flag2: 0
+The following inserts would cause a right-right rotation:
+-4 to 0, 19
+
+Node -5 flag1: r flag2: 0
+Node 2 flag1: 0 flag2: 0
+Node 7 flag1: r flag2: l
+Node 18 flag1: r flag2: r
+Node 23 flag1: l flag2: 0
+Node 38 flag1: 0 flag2: 0
+Node 47 flag1: l flag2: l
+Node 69 flag1: l flag2: r
+Node 682 flag1: 0 flag2: 0
+The following inserts would cause a left-right rotation:
+24 to 29, 70 to 93
+
+Node -5 flag1: r flag2: 0
+Node 2 flag1: 0 flag2: 0
+Node 7 flag1: r flag2: l
+Node 18 flag1: r flag2: r
+Node 23 flag1: l flag2: 0
+Node 38 flag1: 0 flag2: 0
+Node 47 flag1: l flag2: l
+Node 69 flag1: l flag2: r
+Node 682 flag1: 0 flag2: 0
+The following inserts would cause a right-left rotation:
+-9 to -6, 4 to 6
+
+Node(20, h=4):
+  Node(1, h=3):
+    Node(-10, h=1):
+      Null
+      Leaf(-5)
+    Node(3, h=2):
+      Leaf(2)
+      Node(10, h=1):
+        Leaf(7)
+        Leaf(18)
+  Node(40, h=3):
+    Node(36, h=2):
+      Node(30, h=1):
+        Leaf(23)
+        Null
+      Leaf(38)
+    Node(94, h=2):
+      Node(50, h=1):
+        Leaf(47)
+        Leaf(69)
+      Leaf(682)
+

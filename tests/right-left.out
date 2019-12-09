@@ -1,0 +1,14 @@
+Added 2 of 2 nodes.
+Visited 1 (0.5) nodes and performed 0 (0) rotations.
+
+Node 30 flag1: r flag2: 0
+The following inserts would cause a right-left rotation:
+11 to 29
+
+Added 1 of 1 nodes.
+Visited 2 (2) nodes and performed 2 (2) rotations.
+
+Node(20, h=1):
+  Leaf(10)
+  Leaf(30)
+
